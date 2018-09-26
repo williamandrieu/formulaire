@@ -22,11 +22,7 @@ $pers->getNom();
         $Form->input('Adresse');
         $Form->input('Age');
         $Form->input('Tel');
-        $Form->submit();
-
- 	 
-
-
+       
 		$tab = array('HTML' => 'THOMAS','PHP'=>'Francois','MySql' =>'unpeuFrancois');
 ?>
   <div>
@@ -60,6 +56,15 @@ $pers->getNom();
 
 
   </div>
+
+       <?php
+          $Form->submit();
+       ?>
+
+ 	 
+
+
+
 
 
 
